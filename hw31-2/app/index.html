@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hw31-2</title>
+    <style>
+        .visible {
+            display: block;
+        }
+        .unvisible {
+            display: none;
+        }
+        .red{
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <div class = 'unvisible hi'>Hello, Mike! You successfully entered at your account</div>
+    <form action="">
+        <p>Please, enter your name</p>
+        <input type="text" placeholder='mike' list = "list" class = 'name'>
+        <datalist id = "list">
+            <option>Mike</option>
+        </datalist>
+        <p>Please, enter your password</p>
+        <input type="text" placeholder='qwerty' list = "list1" class = 'password'>
+        <datalist id = "list1">
+            <option>qwerty</option>
+        </datalist>
+        <button>Enter</button>
+    </form>
+    <script src="js/main.js"></script>
+</body>
+</html>
